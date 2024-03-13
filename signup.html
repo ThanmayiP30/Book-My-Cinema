@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      form{
+        border: 4px outset solid grey;
+		background-color: white;
+		height: 400px;
+		width: 400px;
+		margin-top: 100px;
+		margin-left: 400px;
+		margin-Right:400px;
+
+    }
+	.te{
+		margin-left: 100px;
+		height:"30px";
+		width:"470px";
+		text-align: center;
+	}
+	body{
+		background-color: rgb(201, 200, 200);
+	}
+</style>
+<body>
+    <form action="signup" method="post">
+        <br>
+        <p style="background-Color:rgba(255, 255, 255, 0.797);font-Style: apple-system Segoe-UI;font-Size:25px;text-align: center;"> LOGIN PAGE</p>
+        <br> 
+        <input placeholder="Name" type="text" name="name" required  >
+        <br><br>
+        <input placeholder="Email" type="text" name="email" required>
+        <br><br>
+        <input placeholder="Mobile" type="number"name="mobile"required>
+        <br><br>
+        <input placeholder="Password" type="password" name="password" required>
+        <br><br>
+        <input placeholder="dob" type="date" name="dob"required
+        <br><br>
+        <label  style="margin-left: 100px;" for="gender">Gender</label>
+        <input  type="radio" name="gender" value="male" required>Male
+        <input type="radio"name="gender" value="female" required>Female
+        <br> <br>
+        <button style="border: outset darkcyan;background-color: aquamarine;margin-left: 60px; " type="submit">Signup</button>
+        <button style="border: outset  red; margin-left: 160px; background-color:deeppink;" type="button">Cancel</button>
+        <br> <br>
+        <a style="margin-left: 100px;" href="login.html">Already registered login</a>
+    
+    </form> 
+</body>
+</html>
